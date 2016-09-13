@@ -8,6 +8,7 @@
     "dev": "xdc watch",
     "dist": "xdc build -p",
     "deploy": "xdc build -p && gh-pages -d dist -b master",
+    "pub":"git subtree push --prefix=dist origin gh-pages",
     "test": "xdc test karma start --single-run"
   },
   "repository": {
