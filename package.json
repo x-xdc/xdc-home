@@ -1,0 +1,28 @@
+{
+  "name": "xdc-home",
+  "version": "0.0.0",
+  "description": "A vue project.",
+  "private": true,
+  "keywords": [],
+  "scripts": {
+    "dev": "xdc watch",
+    "dist": "xdc build -p",
+    "deploy": "xdc build -p && gh-pages -d dist -b master",
+    "test": "xdc test karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/x-xdc/xdc-home.git"
+  },
+  "homepage": "github.com/x-xdc/xdc-home#readme",
+  "bugs": {
+    "url": "github.com/x-xdc/xdc-home/issues"
+  },
+  "author": "czh",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gh-pages": "^0.11.0"
+  }
+}
