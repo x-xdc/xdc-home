@@ -939,7 +939,8 @@ body {
   min-width: 320px;
   background: #F6F8F8;
   font-size: 14px;
-  font-family: 'Helvetica Neue', 'Helvetica', tahoma, 'Hiragino Sans GB', 'PingFang SC', 'STHeitiSC-Light', 'Microsoft YaHei', Arial, sans-serif;
+  font-family: 'Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif';
+
 }
 body a:hover {
   color: #006BE8;

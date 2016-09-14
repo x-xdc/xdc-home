@@ -52,5 +52,4 @@ xdc.add('resolve.alias', {
 xdc.add('externals', {
   'vue': 'Vue'
 });
-
 module.exports = xdc.resolve();

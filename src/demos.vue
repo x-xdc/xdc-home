@@ -63,7 +63,7 @@
         </div>
         <div class="info-write">
           <h3>Powerful Plugin System</h3>
-          <p>Do what you like in egg with the pluggable and extendable system</p>
+          <p>我是一事实上</p>
         </div>
       </li>
     </ul>
