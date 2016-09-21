@@ -38,7 +38,7 @@ xdc.set({
       chunks: ['vendor']
     }
   ],
-  publicPath: '/',
+  publicPath: '/dist/',
   assetsPath: 'static',
   urlLoaderLimit: 10000,
   extractCSS: '[name].[contenthash:7].css',
