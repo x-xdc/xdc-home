@@ -9,7 +9,8 @@
     "dist": "xdc build -p",
     "deploy": "xdc build -p && gh-pages -d dist -b master",
     "pub":"git subtree push --prefix=dist origin gh-pages",
-    "test": "xdc test karma start --single-run"
+    "test": "xdc test karma start --single-run",
+    "d": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
