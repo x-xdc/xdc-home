@@ -11,5 +11,6 @@
     <script src="//npmcdn.com/vue@1.0.24/dist/vue.js"></script>
     <script src="//npmcdn.com/vue-router@0.7.13/dist/vue-router.js"></script>
     <script src="//npmcdn.com/fastclick@1.0.6/lib/fastclick.js"></script>
+    <script src="https://cdn.jsdelivr.net/vue.resource/1.0.2/vue-resource.min.js"></script>
     </body>
 </html>

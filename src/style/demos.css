@@ -1441,7 +1441,8 @@ p {
 }
 
 .img-write {
-    max-width: 1004px;
+    max-width: 800px;
+    height:100%;
     margin: 0 auto;
 }
 
@@ -1509,12 +1510,16 @@ p {
 
 .page-title h2 {
     font-size: 16px;
-    color: #4E5668;
+    color: #FFFFFF;
     padding-top: 5px;
     font-weight: 300;
     letter-spacing: 0.5px;
 }
-
+.ui-iframe{
+  padding: 0 80px 40px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .page-main {
     margin: -100px auto 50px;
     max-width: 1004px;

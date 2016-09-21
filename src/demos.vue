@@ -1,16 +1,5 @@
 <template>
-  <div class="nav">
-    <header>
-      <a href="/" class="nav-logo" alt="egg"><img src="./assets/images/xdc.png"></a>
-      <ul>
-        <li v-for="group in navs">
-          <a v-for="item in group.list" v-link="{ path: item.path }" is-link>
-            {{ item.name }}
-        </a>
-        </li>
-      </ul>
-    </header>
-  </div>
+<navigation></navigation>
   <div class="index">
     <div class="banner block index-bg-dark">
       <div class="banner-logo" id="logo" style="position: relative;"><img src="./assets/images/logo.png" width="640" height="500" style="width: 320px; height: 250px;"></div>
@@ -99,21 +88,4 @@
     </footer>
   </div>
 </template>
-<style>
-@import "./style/demos.css";
-</style>
-<script type="text/babel">
-  import { navs } from './route';
 
-  export default {
-    data() {
-      return {
-        navs: []
-      };
-    },
-
-    compiled() {
-      this.navs = navs;
-    }
-  };
-</script>

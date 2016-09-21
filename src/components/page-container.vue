@@ -2,13 +2,16 @@
   <div id="container">
     <navigation></navigation>
     <div class="page-title center">
-      <h1>规范</h1>
-      <h2>Knowing about the past,Looking to the future</h2>
+      <h1>{{ h1Title }}</h1>
+      <h2>{{ h2Title }}</h2>
     </div>
     <div class="page-main">
       <div class="markdown-body">
-        <iframe src="https://x-xdc.github.io/xdc-ui-docs/#!/zh-cn" frameborder="0" width="100%" height="800px"></iframe>
+        {{{pageContent}}}
       </div>
+    </div>
+    <div class="ui-iframe">
+      {{{uiIframe}}}
     </div>
     <div class="footer">
       <footer>
@@ -23,4 +26,7 @@
   </div>
 </template>
 <script type="text/babel">
+  export default {
+    props: ['h1Title', 'h2Title', 'pageContent', 'uiIframe']
+  };
 </script>

@@ -1,0 +1,6 @@
+{
+  "h1Title": "component",
+  "h2Title": "Knowing about the past,Looking to the future",
+  "pageContent": "<div class=\"page-home-show\"> <div class=\"page-home-left\"> <ul class=\"page-home-feature\" style=\"width: 650px;\"> <li> <i class=\"iconfont icon-zujian\"></i> <span>XDC UI包含丰富的 CSS 和 JS 组件，能够满足日常的移动端开发需要。通过它，可以快速构建出风格统一的页面，提升开发效率。</span> </li> <li> <i class=\"iconfont icon-anxufufei\"></i> <span>真正意义上的按需加载组件。可以只加载声明过的组件及其样式文件，无需再纠结文件体积过大。</span> </li> <li> <i class=\"iconfont icon-xingnengtongji\"></i> <span>考虑到移动端的性能门槛，XDC UI采用 CSS3 处理各种动效，避免浏览器进行不必要的重绘和重排，从而使用户获得流畅顺滑的体验。</span> </li> <li> <i class=\"iconfont icon-shiliangzhinengduixiang9\"></i> <span>依托 Vue.js 高效的组件化方案，XDC UI做到了轻量化。即使全部引入，压缩后的文件体积也仅有 ~30kb (JS + CSS) gzip。</span> </li> </ul> <div class=\"page-home-qrcode\"></div> </div> </div>",
+  "uiIframe":"<iframe src=\"https://x-xdc.github.io/xdc-ui-docs/#!/zh-cn\" frameborder=\"0\" width=\"100%\" height=\"800px\"></iframe>"
+}
