@@ -1,0 +1,34 @@
+[
+  {
+    "list": [
+      {
+        "path": "/version",
+        "name": "版本"
+      }
+    ]
+  },
+  {
+    "list": [
+      {
+        "path": "/tool",
+        "name": "工具"
+      }
+    ]
+  },
+  {
+    "list": [
+      {
+        "path": "/componets",
+        "name": "组件"
+      }
+    ]
+  },
+  {
+    "list": [
+      {
+        "path": "/rule",
+        "name": "规范"
+      }
+    ]
+  }
+]
